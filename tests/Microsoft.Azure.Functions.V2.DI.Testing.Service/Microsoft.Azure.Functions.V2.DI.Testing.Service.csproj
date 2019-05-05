@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Azure.Functions.V2.DI\Microsoft.Azure.Functions.V2.DI.csproj" />
+    <ProjectReference Include="..\..\src\Microsoft.Azure.Functions.V2.DI\Microsoft.Azure.Functions.V2.DI.csproj" />
   </ItemGroup>
 
 </Project>

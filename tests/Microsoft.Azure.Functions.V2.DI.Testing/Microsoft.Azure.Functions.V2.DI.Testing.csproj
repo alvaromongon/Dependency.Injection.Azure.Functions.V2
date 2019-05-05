@@ -8,7 +8,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Microsoft.Azure.Functions.V2.DI.Testing.Service\Microsoft.Azure.Functions.V2.DI.Testing.Service.csproj" />
-    <ProjectReference Include="..\Microsoft.Azure.Functions.V2.DI\Microsoft.Azure.Functions.V2.DI.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">

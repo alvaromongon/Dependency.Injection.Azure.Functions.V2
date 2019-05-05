@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Functions.V2.DI", "Microsoft.Azure.Functions.V2.DI\Microsoft.Azure.Functions.V2.DI.csproj", "{A3F2C0FF-CA52-48EF-BEDD-F3BB088A0E63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Functions.V2.DI", "src\Microsoft.Azure.Functions.V2.DI\Microsoft.Azure.Functions.V2.DI.csproj", "{A3F2C0FF-CA52-48EF-BEDD-F3BB088A0E63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C804529E-A674-46A6-BE65-71D5D155CC1B}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,9 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Functions.V2.DI.Testing.Service", "Microsoft.Azure.Functions.V2.DI.Testing.Service\Microsoft.Azure.Functions.V2.DI.Testing.Service.csproj", "{7AFE5ABE-9E41-41D7-98B0-AC02D9AB71CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Functions.V2.DI.Testing.Service", "tests\Microsoft.Azure.Functions.V2.DI.Testing.Service\Microsoft.Azure.Functions.V2.DI.Testing.Service.csproj", "{7AFE5ABE-9E41-41D7-98B0-AC02D9AB71CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Functions.V2.DI.Testing", "Microsoft.Azure.Functions.V2.DI.Testing\Microsoft.Azure.Functions.V2.DI.Testing.csproj", "{70EA0FA4-89B9-4E2C-AA57-DCD9A9250563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Functions.V2.DI.Testing", "tests\Microsoft.Azure.Functions.V2.DI.Testing\Microsoft.Azure.Functions.V2.DI.Testing.csproj", "{70EA0FA4-89B9-4E2C-AA57-DCD9A9250563}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAC8DCA4-9937-4E4C-B42D-438C3D40C726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BF0AF0FD-26B9-4438-98A8-998F3021B94F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +40,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3F2C0FF-CA52-48EF-BEDD-F3BB088A0E63} = {AAC8DCA4-9937-4E4C-B42D-438C3D40C726}
+		{7AFE5ABE-9E41-41D7-98B0-AC02D9AB71CB} = {BF0AF0FD-26B9-4438-98A8-998F3021B94F}
+		{70EA0FA4-89B9-4E2C-AA57-DCD9A9250563} = {BF0AF0FD-26B9-4438-98A8-998F3021B94F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4376482-E91C-402C-B035-0403CE7576B1}
