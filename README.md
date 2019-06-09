@@ -1,3 +1,5 @@
+[![ease_maker MyGet Build Status](https://www.myget.org/BuildSource/Badge/ease_maker?identifier=48d36c36-191b-4276-ac7f-5ec8fbf40d59)](https://www.myget.org/)
+
 # Introduction 
 Implementation of depency injection for Microsoft Azure Functions v2
 
