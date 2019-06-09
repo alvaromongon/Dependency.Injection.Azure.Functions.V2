@@ -2,7 +2,7 @@
 <package >
   <!--https://docs.microsoft.com/en-us/nuget/reference/nuspec-->
   <metadata>
-    <id>Microsoft.Azure.Storage.Table.Repository</id>
+    <id>Microsoft.Azure.Functions.V2.DI</id>
     <version>1.0.0</version>
     <authors>Alvaro Montero Gonzalez</authors>
     <owners>Alvaro Montero Gonzalez</owners>
