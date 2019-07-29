@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Dependency.Injection.Azure.Functions.V2\Dependency.Injection.Azure.Functions.V2.csproj" />
+  </ItemGroup>
+
+</Project>

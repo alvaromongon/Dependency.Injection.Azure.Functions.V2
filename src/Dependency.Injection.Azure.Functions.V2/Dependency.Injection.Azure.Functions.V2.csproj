@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <!-- https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#nuget-metadata-properties -->
+    <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+        
+    <Authors>Alvaro Montero Gonzalez</Authors>
+    <owners>Alvaro Montero Gonzalez</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <Description>Dependency injection implementation for azure function V2. Support for dependency injection will be added as part of the functions plarform but in the meanwhile this is a good approach.</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIconUrl>
+    <PackageReleaseNotes>First Release.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/alvaromongon/Dependency.Injection.Azure.Functions.V2</RepositoryUrl>
+
+    <PackageTags>netstandard;dependency-injection;azure-functions</PackageTags>
+    </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions" Version="3.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+</Project>

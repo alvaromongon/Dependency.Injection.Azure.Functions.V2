@@ -1,10 +1,14 @@
-[![ease_maker MyGet Build Status](https://www.myget.org/BuildSource/Badge/ease_maker?identifier=48d36c36-191b-4276-ac7f-5ec8fbf40d59)](https://www.myget.org/)
-
 # Introduction 
 Implementation of depency injection for Microsoft Azure Functions v2
+Although dependency injection support will be added as part of the V2 functions plarform, in the meanwhile this is a good approach.
 
 # Getting Started
-Just get it and build it. I was using VS 2017 Enterprise.
+- Install the package
+- Register the injector "webJobsBuilder.AddInjectExtension();" and services 
+- Use the [inject] attribute in your functions.
+
+There is also support added to set the function in "mock" state using a header for http triggered functions, but this is not yet properly tested.
 
 # Build and Test
-Take a look at the tests to understand how to use it.
+I was using VS2019 to build the solution and there are a couple of projects that implement a function and some services to be injected.
+So you can run the function locally and make some request to check how it works.
