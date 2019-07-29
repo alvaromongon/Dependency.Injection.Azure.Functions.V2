@@ -1,3 +1,5 @@
+[![Build Status](https://wtwd.visualstudio.com/Ease%20Maker/_apis/build/status/alvaromongon.Dependency.Injection.Azure.Functions.V2?branchName=master)](https://wtwd.visualstudio.com/Ease%20Maker/_build/latest?definitionId=4&branchName=master)
+
 # Introduction 
 Implementation of depency injection for Microsoft Azure Functions v2
 Although dependency injection support will be added as part of the V2 functions plarform, in the meanwhile this is a good approach.
