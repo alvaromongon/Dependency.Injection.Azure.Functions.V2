@@ -48,6 +48,7 @@ stages:
     - script: dotnet publish --output $(Build.ArtifactStagingDirectory)
 
     - task: FileTransform@1
+      condition: eq(variables['RunIntegrationTests'], true)
       displayName: 'local.settings.json variables set'    
       inputs:
         folderPath: '$(Build.ArtifactStagingDirectory)'
